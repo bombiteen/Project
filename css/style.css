@@ -80,7 +80,7 @@ body {
     flex-wrap: wrap;
 }
 .practice__column {
-    padding: 0px 20px;
+    padding: 0px 10px;
     margin: 0px 0px 30px 0px;
     flex: 0 1 25%;
 }
@@ -98,6 +98,7 @@ body {
     flex: 1 1 auto;
 }
 .item-practice__link {
+    width: 100%;
     color: inherit;
     display: inline-block;
 }
@@ -111,8 +112,9 @@ body {
     color: #252b42;
     font-weight: 700;
     font-size: 16px;
-    line-height: (24 / 16 * 100%);
     letter-spacing: 0.1px;
+    padding-bottom: 10px;
+    border-bottom: 1px solid #000;
 }
 .item-practice__text {
     font-weight: 500;
